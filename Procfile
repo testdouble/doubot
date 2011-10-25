@@ -1,1 +1,1 @@
-web: bin/hubot -a campfire -n Doubot
+app: bin/hubot -a campfire -n Doubot
