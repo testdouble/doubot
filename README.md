@@ -42,15 +42,15 @@ hubot-scripts
 There will inevitably be functionality that everyone will want.  Instead
 of adding it to hubot itself, you can submit pull requests to
 [hubot-scripts](https://github.com/github/hubot-scripts).  To enable
-scripts from the hubot-scripts package, add the script name to the
-hubot-scripts.json file in this repo.
+scripts from the hubot-scripts package, add the script name with extension as a
+double quoted string to the hubot-scripts.json file in this repo.
 
 Deployment
 ==========
 
     % heroku create --stack cedar
     % git push heroku master
-    % heroku ps:scale web=1
+    % heroku ps:scale app=1
     % heroku addons:add redistogo:nano
 
 You'll need to edit the `Procfile` to say what the bot's name is.
@@ -75,15 +75,27 @@ Add the subdomain hubot should connect to. If you web URL looks like
 
     % heroku config:add HUBOT_CAMPFIRE_ACCOUNT="mysubdomain"
 
-The Web Host
-------------
-In order to keep hubot running, he needs to trick heroku into thinking
-he's constantly getting web traffic.  Hubot will automatically ping his
-HTTP endpoint if you set the `HUBOT_WEB_HOST` variable.  You can get the
-web endpoint by running `heroku info` and getting the hostname from the
-Web URL.  Be sure to remove the `http://` prefix from it.
+IRC Variables
+------------------
 
-    % heroku config:add HUBOT_WEB_HOST="galaxy324.herokuapp.com"
+    % heroku config:add HUBOT_IRC_SERVER="irc.freenode.net"
+    
+    % heroku config:add HUBOT_IRC_ROOMS="#github,#node.js"
+    
+    % heroku config:add HUBOT_IRC_NICK="MICCHECK1212"
+
+Twilio Variables
+------------------
+
+You must have a Twilio account with credit and a number that can send and
+receive SMS messages.
+
+    % heroku config:add HUBOT_SMS_FROM="+14156662671"
+
+    % heroku config:add HUBOT_SMS_SID="AC5d10e5624da757326d12f8d31c08c20b"
+
+    % heroku config:add HUBOT_SMS_TOKEN="4ada63e18146a204e468fb6289030231"
+
 
 Restart the bot
 ---------------
