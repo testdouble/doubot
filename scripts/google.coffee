@@ -1,7 +1,6 @@
 # Returns the URL of the first google hit for a query
 #
-# google me <query>   - The Original. Queries Google for <query> and
-#                       returns the URL of the first result
+# google me <query>   - Googles <query> & returns 1st result's URL
 
 module.exports = (robot) ->
   robot.respond /(google)( me)? (.*)/i, (msg) ->
