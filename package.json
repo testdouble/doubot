@@ -15,8 +15,8 @@
   },
 
   "dependencies": {
-    "hubot": "1.1.6",
-    "hubot-scripts": "1.1.4",
-    "optparse": "1.0.1"
+    "hubot": "https://github.com/github/hubot/tarball/master",
+    "hubot-scripts": "https://github.com/github/hubot-scripts/tarball/master",
+    "optparse": "https://github.com/jfd/optparse-js/tarball/master"
   }
 }
