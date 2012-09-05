@@ -1,52 +1,35 @@
 [
-  "redis-brain.coffee", "shipit.coffee", "tweet.coffee",
-  "abstract.coffee", //hubot abstract <topic> - Prints a nice abstract of the given topic
-  "achievement_unlocked.coffee", //hubot achievement get <achievement> [achiever's gravatar email] - life goals are in reach
-  "ascii.coffee", //#   hubot ascii me <text> - Show text in ascii art
-
-  "availability.coffee", //hubot i am <available|free|not busy|at hand> - Set that you are available
-  "aww.coffee",
-  "bang-bang.coffee", //  hubot !! - Repeat the last command directed at hubot
-  "bing.coffee", //hubot bing me <query> - Bings <query> & returns 1st result's URL
-  "clojure.coffee", //hubot clojure|clj <script> - Evaluate one line of Clojure script
-  "corgime.coffee", //hubot corgi me - Receive a corgi
-  "cowsay.coffee", //hubot cowsay <statement> - Returns a cow that says what you want
-
-  "days_since.coffee", //hubot it's been <number> days since <event> - Set the day when the event happened
-                       //hubot how long since <event>? - Display the number of days since the event
-
-  "dnsimple.coffee", //check domain <domainname> - returns whether a domain is available
-  "dribbble.coffee", //hubot (depress|dribbble|inspire) me - brings up popular images
-
-  "faceup.coffee", // hubot hipster me <img> - Overlay hipster glasses on a face
-  "gemwhois.coffee", //hubot gem whois <gemname> - returns gem details if it exists
-  "isup.coffee", //hubot is <domain> up? - Checks if <domain> is up
-  "kittens.coffee", //hubot kitten me - A randomly selected kitten
-
-  "lmgtfy.coffee", //hubot lmgtfy <optional @username> <some query>
-
-  "look-of-disapproval.coffee", //hubot lod <name> - gives back the character for the look of disapproval, optionally @name
-
-  "manatee.coffee", //hubot manatee - outputs a random manatee
-
-  "meme_generator.coffee",
-
-  "octocat.coffee",
-
-  "pivotalstorylisten.coffee", //paste a pivotal tracker link or type "sid-####" in the presence of hubot
-
-  "quickmeme.coffee",
-
-  "sosearch.coffee", //hubot sosearch [me] <query> - Search for the query
-
-  "sudo.coffee",
-
-  "tell.coffee", //hubot tell <username> <some message> - tell <username> <some message> next time they are present
-
-  "tweet-content.coffee",
-
-  "wikipedia.coffee", //hubot wiki me <query> - Searches for <query> on Wikipedia.
-
-  "xkcd.coffee"
-
+    "redis-brain.coffee",
+    "shipit.coffee",
+    "tweet.coffee",
+    "abstract.coffee",
+    "achievement_unlocked.coffee",
+    "ascii.coffee",
+    "availability.coffee",
+    "aww.coffee",
+    "bang-bang.coffee",
+    "bing.coffee",
+    "clojure.coffee",
+    "corgime.coffee",
+    "cowsay.coffee",
+    "days_since.coffee",
+    "dnsimple.coffee",
+    "dribbble.coffee",
+    "faceup.coffee",
+    "gemwhois.coffee",
+    "isup.coffee",
+    "kittens.coffee",
+    "lmgtfy.coffee",
+    "look-of-disapproval.coffee",
+    "manatee.coffee",
+    "meme_generator.coffee",
+    "octocat.coffee",
+    "pivotalstorylisten.coffee",
+    "quickmeme.coffee",
+    "sosearch.coffee",
+    "sudo.coffee",
+    "tell.coffee",
+    "tweet-content.coffee",
+    "wikipedia.coffee",
+    "xkcd.coffee"
 ]
