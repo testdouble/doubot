@@ -22,7 +22,6 @@
     "lmgtfy.coffee",
     "look-of-disapproval.coffee",
     "manatee.coffee",
-    // "meme_generator.coffee", //pending pull request https://github.com/github/hubot-scripts/pull/716
     "octocat.coffee",
     "pivotalstorylisten.coffee",
     "quickmeme.coffee",
