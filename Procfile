@@ -1,1 +1,1 @@
-web: bin/hubot -a campfire -n doubot --alias !
+web: bin/hubot --adapter slack -n doubot --alias !
