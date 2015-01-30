@@ -1,3 +1,4 @@
 [
-  "meme_generator.coffee"
+  "meme_generator.coffee",
+  "xkcd.coffee"
 ]
